@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Api", "Service.Api\Service.Api.csproj", "{96DE0C2A-4A78-417C-A06B-AE3576D45711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Resource", ".Resource", "{EABCBFC1-8CB2-4D5E-B23E-A45224277F74}"
+	ProjectSection(SolutionItems) = preProject
+		.Resource\CodeAnalysis.ruleset = .Resource\CodeAnalysis.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClient", "ApiClient\ApiClient.csproj", "{FC855F4B-DCB3-445D-954E-FCE4C8D66DBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96DE0C2A-4A78-417C-A06B-AE3576D45711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DE0C2A-4A78-417C-A06B-AE3576D45711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DE0C2A-4A78-417C-A06B-AE3576D45711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DE0C2A-4A78-417C-A06B-AE3576D45711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC855F4B-DCB3-445D-954E-FCE4C8D66DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC855F4B-DCB3-445D-954E-FCE4C8D66DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC855F4B-DCB3-445D-954E-FCE4C8D66DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC855F4B-DCB3-445D-954E-FCE4C8D66DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {598F2C68-C3D7-4D7C-B946-2F4DD91A0C0E}
+	EndGlobalSection
+EndGlobal
